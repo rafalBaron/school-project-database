@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAC850BE-2007-9BC4-1F7B-E7F08FFDA23E" name="STADIONY">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>92F1937E-8AD2-F7BB-A94C-227343133160</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sid" id="80D97169-0D14-D64D-206E-B041F2866D0D">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>A6D2FBA9-D4A4-48DE-3536-89F2353D711C</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="BE05B70C-AA70-CAAA-EFCC-DCEC9E146EF8">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>92429C98-0C6A-FF2F-6C9B-982E98962BE7</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pojemnosc" id="8E1EB402-5195-B4AB-AAED-6F8735A35384">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>826F4CE1-4E51-54A9-864E-A0CBCC9FC8A5</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8043AFA-454F-9504-F5C8-4CD030545921" name="STADIONY_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>D72FF472-5120-C470-C27E-BCBE8AADF42F</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80D97169-0D14-D64D-206E-B041F2866D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

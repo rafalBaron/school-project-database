@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03DE91FC-B324-B68A-57C2-DDB5DBD9ED7B" name="LIGI">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>95AA3096-3029-F186-C15F-104A48BD2470</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lid" id="0F92338D-2C65-E031-B79B-F3C30C400CAF">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>64EEAF00-3703-CB1B-A093-F2C4D3BB0349</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj" id="0F7560C9-7B88-7330-69FB-C4B910AF49AE">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>69989FD2-77EC-6D5E-A20B-91138D17E3AE</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="D6912233-424C-1572-E4DD-88128E1CF8DF">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>B868B458-858C-6783-FDC9-DB15521F0C55</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CC05365-7203-41FB-63E1-447185BF0D1B" name="LIGI_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>6B3A34ED-FA75-FB78-02CD-D8B797B0EB79</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F92338D-2C65-E031-B79B-F3C30C400CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

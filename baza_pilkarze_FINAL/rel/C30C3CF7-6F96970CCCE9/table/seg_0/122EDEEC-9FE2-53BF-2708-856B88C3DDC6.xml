@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="122EDEEC-9FE2-53BF-2708-856B88C3DDC6" name="KONTRAKTY">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>96C7D796-94C6-C217-8DA8-A0D8B0ADD7A8</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_rozpoczecia" id="5C3943D9-7AF6-D029-F8DB-4CEC5FB34D51">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>4B6F4DFB-1B31-B077-29DF-D9EB31FF0BB0</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tygodniowa_placa" id="97CE482F-B8BE-C497-0A42-E747B1D0468E">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>38F1841C-19D9-91F3-416D-118C4C303956</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pid" id="9E985E7A-36B8-318D-E28F-FDF92C41CED6">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>AFDD3499-0822-2EA8-04A1-C9B6D3BAA9DC</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="394ADE8E-4670-D828-B3C3-2517DFA6FACB" referredColumn="1FDC175E-2735-CA60-0944-1EFBD1B10966"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD3B737C-B168-10F6-F03A-BFAF4B2C00AF" name="KONTRAKTY_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>637474FF-E2EB-09B0-7062-E6CE80632FB4</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E985E7A-36B8-318D-E28F-FDF92C41CED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D121D2FB-98FB-9CBC-8F66-82A080155146" name="KONTRAKTY_PILKARZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>3C1AD439-5516-609C-B513-13165922C991</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E985E7A-36B8-318D-E28F-FDF92C41CED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

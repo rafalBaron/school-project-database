@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="053A36BA-01AB-4020-5FD8-DE3B1A7F9B64" name="BRAMKI">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>8EAC44E3-2386-31DD-8C55-0EEC8DB4AC48</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="minuta" id="2B4A93A2-FB07-B01D-34EC-30066ABCF42B">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>6D188128-35A5-5A34-6939-BE646D9F8509</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typ_bramki" id="3A931BCF-5257-5D2B-047B-814253E8137A">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>FBE659AE-8C3F-447D-EB0E-159B6B6B5450</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pid" id="322A13ED-7B08-D8E8-3EEA-EE52E7EFF855">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>1E46408C-C309-FD16-EF69-27C1855DE02A</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9FD72AC-D880-7EB9-07A6-C9E7AF31D696" referredColumn="1310AD63-0A47-FAE6-F02B-04DBC5B061B0"/>
+</associations>
+</Column>
+<Column name="mecz_id" id="BA7D6F37-B8E1-B31A-532D-96E43028CB62">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>CA917A1C-1F35-68A9-B3F9-FA2FBD82441B</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71CC309E-1964-1582-9881-A3502EC78B89" referredColumn="40AF1DE5-DEC4-3B53-ACA7-CC8BCF9A9B62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41C221C3-54F7-6E0E-B7A6-774021BB4C4D" name="BRAMKI__UN">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 17:46:43 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="322A13ED-7B08-D8E8-3EEA-EE52E7EFF855"/>
+<colUsage columnID="BA7D6F37-B8E1-B31A-532D-96E43028CB62"/>
+<colUsage columnID="2B4A93A2-FB07-B01D-34EC-30066ABCF42B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBD33630-2D62-6971-450E-E6B6635185F4" name="BRAMKI_PILKARZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>C7CE1FAB-2684-D0FE-887F-F123015576C8</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="322A13ED-7B08-D8E8-3EEA-EE52E7EFF855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F256E3CC-D59E-4F13-FC01-346D46BD3DF2" name="BRAMKI_MECZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>7DA55A86-0526-FE08-8A5A-B963EE3C263E</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7D6F37-B8E1-B31A-532D-96E43028CB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

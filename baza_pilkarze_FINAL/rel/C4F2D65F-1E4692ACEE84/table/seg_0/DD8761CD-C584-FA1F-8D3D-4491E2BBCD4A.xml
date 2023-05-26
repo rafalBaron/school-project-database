@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD8761CD-C584-FA1F-8D3D-4491E2BBCD4A" name="MECZE">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>1B52C70B-EF00-CC8B-9F02-75F26B843AD5</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mecz_id" id="534EBC79-A43E-596A-4A9F-6E46B8883F9E">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>A54F2E4C-4498-C9DC-A608-ECAF1124C65C</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="B5809F29-8C14-9088-8CFB-3E812F123167">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>F7C62E7B-8A05-9C70-4E93-9D4213C18283</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godzina" id="FC1DFD4D-D8EF-FE4B-0D05-01224FF49D7D">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>BE121FA0-F54C-15BC-DA71-4ABBFAD92382</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wynik" id="03959BF0-ABE8-4622-B629-2374472279D0">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>5452F870-81CB-DF61-B73A-E42C06E967BF</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sedzia" id="6F2ACD28-0F27-CF14-0413-41B022E7D616">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>7EDCDFE9-B6E1-1162-747F-5E0BD9A263B7</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6569B8C-7497-E6E3-65FA-DDCE022EC85B" name="MECZE_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>E14197CE-4028-6DC3-4801-58E628E91965</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="534EBC79-A43E-596A-4A9F-6E46B8883F9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

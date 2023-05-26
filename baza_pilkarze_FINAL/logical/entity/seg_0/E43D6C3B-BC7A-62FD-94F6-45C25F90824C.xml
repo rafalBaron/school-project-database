@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E43D6C3B-BC7A-62FD-94F6-45C25F90824C" name="BMI">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:30:41 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C3BC6C0E-C047-E395-AC6E-2306386C9792" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_badania" id="32218B1B-EDF5-7B55-C85E-51F126063918">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:25:16 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C3BC6C0E-C047-E395-AC6E-2306386C9792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wskaznik" id="1812F80D-D70C-AD11-EF9A-356AAECDCE72">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:30:47 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C3BC6C0E-C047-E395-AC6E-2306386C9792" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pid" id="AC324C75-6802-8CD2-6E60-BDECDCA40627">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:27:28 UTC</createdTime>
+<generatorID>F0A24833-79A6-8BA8-4DA4-A08D9941E65E</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C3BC6C0E-C047-E395-AC6E-2306386C9792" value="true"/>
+</engineerTo>
+<referedAttribute>01B2F749-FFAC-01FE-2B78-0B29F2E60D69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

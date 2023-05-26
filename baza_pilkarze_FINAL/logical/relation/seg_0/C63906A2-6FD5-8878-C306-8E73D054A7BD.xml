@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="C63906A2-6FD5-8878-C306-8E73D054A7BD">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:32:50 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C3BC6C0E-C047-E395-AC6E-2306386C9792" value="true"/>
+</engineerTo>
+<sourcePk>B36EF93E-70BD-195F-AA91-558820E3E588</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BD811CD1-4EEC-CD99-0506-CFCA70F1FDF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>26044E4F-8532-02B5-555B-7FE8D9D11C15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

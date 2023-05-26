@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EA64EA9-D412-3718-0832-89D480945C83" name="BMI">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>E43D6C3B-BC7A-62FD-94F6-45C25F90824C</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data_badania" id="F009FC06-1BA8-76F8-B7FE-72D6ECBCF14C">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>32218B1B-EDF5-7B55-C85E-51F126063918</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wskaznik" id="E9198037-77C6-EF70-AD9D-F13E0A08EE3E">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>1812F80D-D70C-AD11-EF9A-356AAECDCE72</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pid" id="7FE37E27-FF45-460C-6705-0F6B2609AEBF">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:15 UTC</createdTime>
+<generatorID>AC324C75-6802-8CD2-6E60-BDECDCA40627</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93608609-BBE4-D4AD-1EB2-DFAF86A37ACC" referredColumn="1310AD63-0A47-FAE6-F02B-04DBC5B061B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19AD72E0-0A12-C919-DEA7-19AFDFA5EF88" name="BMI__UN">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 17:26:53 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE37E27-FF45-460C-6705-0F6B2609AEBF"/>
+<colUsage columnID="F009FC06-1BA8-76F8-B7FE-72D6ECBCF14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8D0B6F-F6E5-1305-3927-4062ABD2FF6E" name="BMI_PILKARZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>F0A24833-79A6-8BA8-4DA4-A08D9941E65E</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FE37E27-FF45-460C-6705-0F6B2609AEBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

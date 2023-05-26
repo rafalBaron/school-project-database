@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="967309CB-4EFB-AA32-B1A0-D406C1C1CB8A" name="SEDZIOWIE">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:17:41 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sid" id="403004E2-848E-AECC-A13B-09FFD3F501D2">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:17:54 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="glowny" id="B693BEA5-C5E5-DD7F-8FFB-7CF1A1A430CB">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:41:35 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asystent_1" id="52F2050B-EA43-B39A-7587-21DFBF746FF9">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:17:52 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asystent_2" id="01A970DD-C3AF-1072-6ABC-DD9AA18E7A90">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:18:50 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="narodowosc" id="A6833F88-74EF-1B6E-7FA2-CCE1D1C346F0">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:20:26 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F96BFD6-AC6A-00F7-AC48-2EE2806A0318" name="SEDZIOWIE PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:18:45 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>403004E2-848E-AECC-A13B-09FFD3F501D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

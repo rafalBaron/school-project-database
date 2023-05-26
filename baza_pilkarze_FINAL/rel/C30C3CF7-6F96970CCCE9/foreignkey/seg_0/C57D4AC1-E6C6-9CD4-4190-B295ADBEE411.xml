@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C57D4AC1-E6C6-9CD4-4190-B295ADBEE411" containerWithKeyObject="10846368-73A3-B6CF-9ECB-7863973CBB58" localFKIndex="B9F8FC4D-40BE-3774-A88E-2AC0BD58ED39" name="BRAMKI_MECZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:27:39 UTC</createdTime>
+<generatorID>7DA55A86-0526-FE08-8A5A-B963EE3C263E</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<referredTableLongName>MECZE</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4547C39D-C874-085A-84E9-8AB538E70958</referredTableID>
+<keyObject>C202A299-BB75-27E7-673D-C5DD6AEABCEF</keyObject>
+<referredKeyID>C202A299-BB75-27E7-673D-C5DD6AEABCEF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mecz_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

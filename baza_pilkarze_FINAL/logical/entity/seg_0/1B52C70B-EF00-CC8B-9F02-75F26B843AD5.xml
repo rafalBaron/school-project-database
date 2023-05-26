@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B52C70B-EF00-CC8B-9F02-75F26B843AD5" name="MECZE">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:41:49 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mecz_id" id="A54F2E4C-4498-C9DC-A608-ECAF1124C65C">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:41:54 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F7C62E7B-8A05-9C70-4E93-9D4213C18283">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:41:58 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godzina" id="BE121FA0-F54C-15BC-DA71-4ABBFAD92382">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:41:58 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gospodarz_id" id="C45B1D84-4542-484F-33E8-0D4A3D9F6041">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 11:18:31 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gosc_id" id="13BF9BF5-AC9E-774D-5169-395AB2C9E7A8">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 11:18:32 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wynik" id="5452F870-81CB-DF61-B73A-E42C06E967BF">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:41:59 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sid" id="D0BC1E68-8BD2-CD85-99AA-B6F4F08497A0">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:23:46 UTC</createdTime>
+<generatorID>8B6530E7-DF2F-4A8B-08E3-C1869EB2EF13</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<referedAttribute>403004E2-848E-AECC-A13B-09FFD3F501D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rzuty_rozne" id="FAEFF2AD-5032-73F3-A258-2D89EDE32D56">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:25:53 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zolte_kartki" id="85210F3F-4DC1-F18D-515A-5F1C3776327A">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:24:01 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="czerwone_kartki" id="AAE33B9D-8F29-BC34-EB42-7D7E72908630">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:24:15 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rzuty_karne" id="96990A68-F4C7-6D31-1DBF-2011933232CF">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-21 22:24:28 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E14197CE-4028-6DC3-4801-58E628E91965" name="MECZE PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:42:09 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<engineerTo>
+<item key="C30C3CF7-34F0-45B6-2FEF-6F96970CCCE9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A54F2E4C-4498-C9DC-A608-ECAF1124C65C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

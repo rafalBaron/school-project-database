@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7544B54-0A39-5ACF-091F-D1EED2882687" name="ASYSTY">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:55:59 UTC</createdTime>
+<generatorID>26044E4F-8532-02B5-555B-7FE8D9D11C15</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="minuta" id="9924FB1F-3D47-648E-83F8-DC833E4C9830">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>FBDCF1A8-80E7-121B-6634-9DD24DCD5259</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stopien" id="195B7380-D2A4-B90C-9AB2-DE5625C69688">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>EBBBF353-96B2-965F-A364-63D278DD8697</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MECZE_mecz_id" id="A4765E57-39AB-6801-BF6C-736123B08CDC">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>D2DC3596-C355-2FD2-C4E3-7F84C9382479</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F74B840D-F0C1-1AC6-1D92-70A37007FF60" referredColumn="534EBC79-A43E-596A-4A9F-6E46B8883F9E"/>
+</associations>
+</Column>
+<Column name="PILKARZE_pid" id="C09D881A-6AAE-CFC1-0510-A53FC2BDCDFF">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>8EF18D5E-3A5D-3777-B86C-314C811158B9</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63168557-9E9A-3F45-7072-4F736B25B05E" referredColumn="ED187AEE-D9D5-CFA0-BA63-70CB446D4395"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="925865C7-E1B2-7209-A674-6735BAFB3F7C" name="ASYSTY_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>2FF182A8-835D-ECC3-BA70-BBC76CD22D31</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09D881A-6AAE-CFC1-0510-A53FC2BDCDFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E004910D-67BA-4BD5-988E-C97D46182A96" name="ASYSTY_MECZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>0748D609-8001-BB3B-A057-EA12D555A1D3</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4765E57-39AB-6801-BF6C-736123B08CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F28E995C-B76C-266C-A4C9-3551CCA37093" name="ASYSTY_PILKARZE_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-16 20:56:00 UTC</createdTime>
+<generatorID>5ED95B4A-F44A-5512-01E8-B2827BCE0734</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09D881A-6AAE-CFC1-0510-A53FC2BDCDFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

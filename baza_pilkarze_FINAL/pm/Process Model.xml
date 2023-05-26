@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="560F986B-D48D-7B37-67BE-96A678AB2707">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:26:10 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

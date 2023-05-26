@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="baza_pilkarze_FINAL" id="F484DC31-1470-66AF-9752-BF171BD6FBCE" version="3.5">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-15 12:26:09 UTC</createdTime>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F484DC31-1470-66AF-9752-BF171BD6FBCE</designId>
+</OSDM_Design>

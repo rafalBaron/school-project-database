@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6942A25C-2032-10FD-59C1-3A14D3450FA8" containerWithKeyObject="00B522E2-0FC1-3CAA-F3FF-35F71CED2D47" localFKIndex="4DE846A9-06AD-67BB-412F-A14726054CC5" name="KLUBY_LIGI_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2023-01-19 13:34:16 UTC</createdTime>
+<generatorID>B49DEF02-B522-31BB-9E71-2E9E750DB37E</generatorID>
+<ownerDesignName>baza_pilkarze_FINAL</ownerDesignName>
+<referredTableLongName>LIGI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03DE91FC-B324-B68A-57C2-DDB5DBD9ED7B</referredTableID>
+<keyObject>0CC05365-7203-41FB-63E1-447185BF0D1B</keyObject>
+<referredKeyID>0CC05365-7203-41FB-63E1-447185BF0D1B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>lid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
